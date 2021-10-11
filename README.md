@@ -5,14 +5,35 @@
 $ git clone https://github.com/JDhyeok/falsk-ml-model-api.git
 ```
 
+### dependency
+- Docker
+- Tensorflow
+- Keras
+
 ## Project Setup
 
+### Option1 - Local
+
+- Setup virtual environment
+    ```shell
+    $ virtualenv venv
+    ```
+- Install dependencies
+    ```shell
+    $ pip install -r requirements
+    ```
+
+- Start Flask server
+    ```shell
+    $ cd app
+    $ flask run
+    ```
+
+### Option2 - Docker
 - Build docker image
     ```shell
     $ docker-compose build
     ```
-
-## Project Start
 
 - Start docker container
     ```shell
@@ -39,4 +60,7 @@ You can use cURL examples below or use third party application such as PostMan.
         score: 95.1245
     }
     ```
-Ref.
+# Ref.
+http://ai.stanford.edu/~amaas/papers/wvSent_acl2011.pdf
+
+https://www.kaggle.com/lakshmi25npathi/sentiment-analysis-of-imdb-movie-reviews
