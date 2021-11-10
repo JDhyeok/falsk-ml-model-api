@@ -1,16 +1,18 @@
 # falsk-ml-model-api
 
 ## Installation
+### Source Code
 ```
 $ git clone https://github.com/JDhyeok/falsk-ml-model-api.git
 ```
 
-### dependency
-- Docker
+## Project Setup/Start
+
+### Dependency
+- Docker (Optional)
 - Tensorflow
 - Keras
-
-## Project Setup
+- Python >= 3.x
 
 ### Option1 - Local
 
@@ -18,6 +20,12 @@ $ git clone https://github.com/JDhyeok/falsk-ml-model-api.git
     ```shell
     $ virtualenv venv
     ```
+- Start python virtual environment
+   ```shell
+   $ .\venv\Script\activate
+   # or source .\venv\Script\activate
+   ```
+
 - Install dependencies
     ```shell
     $ pip install -r requirements
