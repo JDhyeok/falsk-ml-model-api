@@ -1,6 +1,9 @@
 # falsk-ml-model-api
 
+Deploy sentiment anaysis deep learning model using flask. It allows you using the result of model prediction through REST API
+
 ## Installation
+
 ### Source Code
 ```
 $ git clone https://github.com/JDhyeok/falsk-ml-model-api.git
